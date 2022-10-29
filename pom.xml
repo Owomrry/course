@@ -7,6 +7,7 @@
 		<module>eureka</module>
 		<module>system</module>
 		<module>gateway</module>
+		<module>server</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -48,6 +49,12 @@
 				<version>2.2.1.RELEASE</version>
 			</dependency>
 
+<!--			引入公共的模块-->
+			<dependency>
+				<groupId>com.course</groupId>
+				<artifactId>server</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
 
 
 			<!--			需要用到mysql依赖-->

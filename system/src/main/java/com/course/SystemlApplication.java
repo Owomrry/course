@@ -5,11 +5,13 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
 @EnableEurekaClient //客户端
-@MapperScan("com/course/mapper")
+@ComponentScan("com.course.server.service")
+@MapperScan("com.course.server.mapper")
 public class SystemlApplication {
 
 
