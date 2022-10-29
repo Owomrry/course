@@ -8,7 +8,6 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController  //返回json用restcontroller   返回页面用controller
-@RequestMapping("/system")
 public class TestController {
 
     @Resource

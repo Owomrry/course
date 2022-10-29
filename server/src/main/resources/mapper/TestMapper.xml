@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!--非必要属性！namespace 接口全路径！-->
-<mapper namespace="com.course.seriver.mapper.TestMapper">
+<mapper namespace="com.course.server.mapper.TestMapper">
 
     <select id="list" resultType="com.course.server.domain.Test">
         select * from test;
