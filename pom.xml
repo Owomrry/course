@@ -8,8 +8,9 @@
 		<module>system</module>
 		<module>gateway</module>
 		<module>server</module>
+        <module>business</module>
 
-	</modules>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
