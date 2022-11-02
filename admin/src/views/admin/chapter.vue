@@ -972,3 +972,16 @@
         </tbody>
       </table>
 </template>
+<script>
+
+export default {
+  name: 'chapter',
+  methods:{
+    mounted: function (){
+    },
+    methods:{
+    }
+
+  }
+}
+</script>

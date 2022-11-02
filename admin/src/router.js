@@ -7,7 +7,7 @@ import Welcome from './views/admin/welcome'
 import Chapter from './views/admin/chapter'
 Vue.use(Router);
 export default new Router({
-    model : 'history',
+    model : "history",
     base:process.env.BASE_URL,
     routes : [{
         path: '*',
@@ -16,13 +16,16 @@ export default new Router({
         path: '/login',
         component:Login
     },{
-        path: '/admin',
+        path: '/',
+        name:"admin",
         component: Admin,
         children : [{
             path: 'welcome',
+            name:"welcome",
             component: Welcome,
         },{
-            path: 'chapter',
+            path: 'business/chapter',
+            name:"business/chapter",
             component: Chapter,
         }
         

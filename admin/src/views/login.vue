@@ -90,7 +90,7 @@ export default {
       $('body').attr('class', 'login-layout light-login');
     },
     login(){
-      this.$router.push("/admin") // 路由跳转
+      this.$router.push("/welcome") // 路由跳转具体看路由怎么设置的/代表admin
     }
   }
 }
