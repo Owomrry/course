@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableEurekaClient //客户端
 @ComponentScan("com")
-@MapperScan("com.course.business.mapper")
+@MapperScan("com.course.server.mapper")
 public class businessApplication {
 
 	public static void main(String[] args) {

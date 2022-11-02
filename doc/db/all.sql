@@ -16,3 +16,7 @@ create table  `chapter`(
     `name` varchar(50) comment '名称',
     primary key (`id`)
 )engine =innodb default charset = utf8mb4 comment = '大章';
+
+# 插入两条数据
+insert into chapter (id, course_id, name) VALUES (1,00000000,"大章测试1");
+insert into chapter (id, course_id, name) VALUES (2,00000000,"大章测试2");
